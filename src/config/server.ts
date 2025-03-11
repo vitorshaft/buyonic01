@@ -100,7 +100,7 @@ app.post("/rota-recebimento", async (req, res) => {
 
 
             //arduino
-            if (req.body.pix[0].txid == "V0CRTmog6XdUQtmhDFeoV2V") {
+            if (req.body.pix[0].txid == "V0CRTmog6XdUQtmhDFeoAAA") {
                 valorDoPix = req.body.pix[0].valor;
                 console.log("Creditando valor do pix na máquina 1");
             }
